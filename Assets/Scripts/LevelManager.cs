@@ -19,4 +19,7 @@ public class LevelManager : MonoBehaviour {
 		Application.Quit ();
 	}
 
+	public void LoadLevel(string name){
+		SceneManager.LoadScene (name);
+	}
 }
